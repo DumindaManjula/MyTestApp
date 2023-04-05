@@ -26,6 +26,7 @@
         android:text="SetBackground"
         android:textSize="20sp"
         android:onClick="clickButton"
+        android:textAllCaps="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
