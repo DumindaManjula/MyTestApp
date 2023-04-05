@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/msg"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#B03A2E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maharishi International University"/>
+
+    <Space android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:text="SetBackground"
+        android:textSize="20sp"
+        android:onClick="clickButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Space android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <ImageButton
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:onClick="clickImage"
+        android:src="@drawable/miulogo"
+        android:layout_gravity="center" />
+
+</LinearLayout>
